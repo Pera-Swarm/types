@@ -1,0 +1,38 @@
+{
+   "name": "@pera-swarm/types",
+   "version": "1.0.0",
+   "description": "The types associated with Pera-Swarm",
+   "main": "index.js",
+   "directories": {
+      "lib": "lib",
+      "test": "test"
+   },
+   "scripts": {
+      "format": "prettier --write \"**/*.+(js|jsx|ts|tsx)\"",
+      "test": "test"
+   },
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/Pera-Swarm/types.git"
+   },
+   "keywords": [
+      "Types",
+      "TypeScript",
+      "Pera",
+      "Swarm",
+      "Pera-Swarm"
+   ],
+   "author": "Pera-Swarm",
+   "license": "LGPL-2.1",
+   "bugs": {
+      "url": "https://github.com/Pera-Swarm/types/issues"
+   },
+   "homepage": "https://github.com/Pera-Swarm/types#readme",
+   "publishConfig": {
+      "access": "public"
+   },
+   "devDependencies": {
+      "prettier": "^2.2.0",
+      "typescript": "^4.1.2"
+   }
+}
