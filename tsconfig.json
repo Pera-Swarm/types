@@ -1,0 +1,17 @@
+{
+    "files": [
+        "global.d.ts",
+        "index.d.ts",
+        "lib/index.ts",
+        "test/index.ts"
+    ],
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES6",
+        "outDir": "dist",
+        "rootDir": ".",
+        "allowJs": true,
+        "checkJs": true,
+        "lib": ["ES2016"]
+    }
+}
