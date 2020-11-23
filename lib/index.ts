@@ -9,6 +9,14 @@ interface CoordinateType {
 }
 
 /**
+ * @interface SensorType
+ */
+interface SensorType {
+    id: number;
+    value: number | number[];
+}
+
+/**
  * @class Coordinate
  */
 class Coordinate {
