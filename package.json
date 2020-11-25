@@ -8,8 +8,11 @@
         "test": "test"
     },
     "scripts": {
+        "compile": "tsc",
+        "dev": "tsc --watch",
         "format": "prettier --write \"**/*.+(js|jsx|ts|tsx)\"",
-        "test": "test"
+        "test": "node dist/test/index.js",
+        "test:watch": "nodemon dist/test/index.js"
     },
     "repository": {
         "type": "git",
