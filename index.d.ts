@@ -1,5 +1,7 @@
 /// <reference path="./global.d.ts" />
 
+import { SensorType, RobotType } from './lib/index';
+
 export = PeraSwarm;
 export as namespace PeraSwarm;
 
@@ -11,22 +13,22 @@ declare namespace PeraSwarm {
     interface GeneralCoordinateZ extends CoordinateZ {}
     interface CustomCoordinate extends Coordinate {}
     interface CustomCoordinateZ extends CoordinateZ {}
-    function validateCoordinate(coorinate: CoordinateType): boolean;
+    // function validateCoordinate(coorinate: CoordinateType): boolean;
 
     interface Sensor {}
-    interface GeneralColorSensor extends Sensor {}
-    interface GeneralCompassSensor extends Sensor {}
-    interface GeneralDistanceSensor extends Sensor {}
-    interface GeneralProximitySensor extends Sensor {}
+    class GeneralColorSensor implements Sensor {}
+    class GeneralCompassSensor implements Sensor {}
+    class GeneralDistanceSensor implements Sensor {}
+    class GeneralProximitySensor implements Sensor {}
 
-    interface CustomColorSensor extends Sensor {}
-    interface CustomCompassSensor extends Sensor {}
-    interface CustomDistanceSensor extends Sensor {}
-    interface CustomProximitySensor extends Sensor {}
+    class CustomColorSensor implements Sensor {}
+    class CustomCompassSensor implements Sensor {}
+    class CustomDistanceSensor implements Sensor {}
+    class CustomProximitySensor implements Sensor {}
     function validateSensor(sensor: SensorType): boolean;
 
     interface Robot {}
-    interface GeneralRobot extends Robot {}
-    interface CustomRobot extends Robot {}
+    class GeneralRobot implements Robot {}
+    class CustomRobot implements Robot {}
     function validateRobot(robot: Robot): boolean;
 }
