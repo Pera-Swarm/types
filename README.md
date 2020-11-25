@@ -28,7 +28,7 @@ Types associated with Pera-Swarm
 
 ### Contribute
 
-1. Install dependencies
+#### 1. Install dependencies
 
 Install project dependencies.
 ```
@@ -39,7 +39,7 @@ Install typescript globally if you haven't installed already.
 $ npm install -g typescript
 ```
 
-2. Compile
+#### 2. Compile
 
 This will generate the `dist` folder locally.
 Run the typescript compiler if you have typescript installed globally.
@@ -56,7 +56,7 @@ or
 $ tsc --watch
 ```
 
-3. Testing
+#### 3. Testing
 
 > Note: Before running the test cases, you should compile the typescript files as described in the step 2.
 ```
