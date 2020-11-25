@@ -3,6 +3,11 @@
     "version": "1.0.1",
     "description": "The types associated with Pera-Swarm",
     "main": "index.js",
+    "files": [
+        "dist",
+        "test",
+        "lib"
+    ],
     "directories": {
         "lib": "lib",
         "test": "test"
