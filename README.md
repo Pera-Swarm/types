@@ -23,7 +23,7 @@ Types associated with Pera-Swarm
     ├── lib/                     # Library files
     ├── test/                    # Test files
     ├── global.d.ts              # Global type declaration file
-    └── index.d.ts               # Typings for the target package `@types/pera-swwarm` only
+    └── index.d.ts               # Typings for the target package `@types/pera-swarm` only
     ...
 
 ### Contribute
