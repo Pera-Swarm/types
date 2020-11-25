@@ -44,6 +44,10 @@ $ npm install -g typescript
 This will generate the `dist` folder locally.
 Run the typescript compiler if you have typescript installed globally.
 ```
+$ npm run compile
+```
+or
+```
 $ tsc
 ```
 
