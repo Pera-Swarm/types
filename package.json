@@ -1,6 +1,6 @@
 {
     "name": "@pera-swarm/types",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "The types associated with Pera-Swarm",
     "main": "index.js",
     "directories": {
