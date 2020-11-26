@@ -1,4 +1,4 @@
-# types
+# types [![npm (scoped)](https://img.shields.io/npm/v/@pera-swarm/types.svg)](https://github.com/Pera-Swarm/types/) [![GitHub Workflow Status](https://img.shields.io/github/workflow/status/Pera-Swarm/types/%F0%9F%9A%80%20Release)](https://github.com/Pera-Swarm/types/releases) [![GitHub issues](https://img.shields.io/github/issues/Pera-Swarm/types)](https://github.com/Pera-Swarm/types/issues)
 Types associated with Pera-Swarm
 
 ## Summary
